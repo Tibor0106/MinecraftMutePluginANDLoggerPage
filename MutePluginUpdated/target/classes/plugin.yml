@@ -1,0 +1,11 @@
+name: MutePlugin
+version: 1.0
+main: me.jack.muteplayers
+api-version: 1.18
+author: Jack
+
+
+commands:
+  mute:
+    permission: muteplugin.command.mute
+    description: Mute players /mute <user> <duratin> <reason> :D

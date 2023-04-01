@@ -1,0 +1,11 @@
+prefix: "&7(&c&lMUTE&r&7) &f»"
+
+#MySQl datbase log
+Database_log: true
+database:
+  username: root
+  password: ""
+  database: minecraft
+  data_table: mute_log
+  address: localhost
+  port: 3306

@@ -1,0 +1,46 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <title>Mute logger</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-dark">
+  <div class="d-flex justify-content-center mt-3">
+     <input type="text" class="input-group-text" id="find" placeholder="Filter" oninput="find()">
+     <input type="reset" class="btn btn-danger ms-3 reset" value="Delete filter" id="find">
+  </div> 
+  <main class="mt-4">
+    <div class="row m-3">
+      <div class="col-sm">
+        <h2 class="text-center">Mutes</h2>
+        <div class="container overflow-auto" style="height:600px;"><div class="loader"></div></div>
+      </div>
+      <div class="col-sm text-center">
+         <h2 class="text-center">Stat</h2>
+         <div class="stat">
+          <div class="cards">
+            <div class="stat-list">
+            </div>
+          </div>
+         </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+    integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+  </script>
+  <script src="load.js"></script>
+</body>
+</html>
+ 

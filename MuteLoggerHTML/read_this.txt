@@ -1,0 +1,9 @@
+Setup your database:
+1 -> create database
+2 --> create table: 
+   - CREATE TABLE `mute_log` (`id` int(11) NOT NULL, `staff` text NOT NULL,`player` text NOT NULL,`duration` text NOT NULL, `reason` text NOT NULL,`date` text NOT NULL) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_hungarian_ci;
+     AND - ALTER TABLE `mute_log` ADD PRIMARY KEY (`id`);
+php/data.php --> add your username,  password and database's name.
+
+
+Thank you for using! ❤️
